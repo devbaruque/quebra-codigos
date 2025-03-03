@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Quebrar Códigos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Seymour+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <button class="button-container" id="submit-btn">Enviar</button>
+    <button class="button-container" id="restart-btn">Jogar Novamente</button>
+    <div class="card-black">
+    <h1 class="h1">Jogo de Quebrar Códigos</h1>
+    <div id="game-screen">
+      <p id="challenge-text"></p>
+      <input type="text" id="user-input" placeholder="Clique aqui para responder:">
+      <p id="result"></p>
+      <p id="timer">Tempo restante: 30s</p>
+    </div>
+    <div id="end-screen" style="display: none;">
+      <p id="final-score"></p>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

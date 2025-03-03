@@ -1,0 +1,91 @@
+ _        _    ___         _         ___          
+| |  _  _(_)__| _ \___  __| |_  __ _|   \ _____ __
+| |_| || | |_ /   / _ \/ _| ' \/ _` | |) / -_) V /
+|____\_,_|_/__|_|_\___/\__|_||_\__,_|___/\___|\_/ 
+                                                  
+
+### Descrição do Projeto: **Jogo de Quebrar Códigos**
+
+#### **Propósito do Jogo:**
+O **Jogo de Quebrar Códigos** foi desenvolvido com o objetivo de estimular o raciocínio lógico e a capacidade de resolução de problemas em crianças de forma lúdica e divertida. 
+Inspirado na ideia de que as crianças são "hackers mirins", o jogo desafia os jogadores a decifrar códigos, 
+completar sequências e decodificar mensagens, promovendo o desenvolvimento de habilidades como atenção, concentração, 
+pensamento crítico e familiarização com conceitos básicos de lógica e matemática.
+
+O jogo é uma ferramenta educativa que combina aprendizado e entretenimento, 
+tornando-se uma excelente opção para pais e educadores que desejam incentivar o aprendizado de forma interativa e envolvente.
+
+---
+
+#### **Como Funciona o Jogo:**
+O jogo é composto por três tipos de desafios, cada um com diferentes níveis de complexidade:
+
+1. **Decifrar Códigos Numéricos:**
+   - As crianças recebem uma sequência de números que correspondem a letras do alfabeto (A = 1, B = 2, C = 3, etc.).
+   - O objetivo é decifrar a palavra correta com base nos números fornecidos.
+   - Exemplo: "1-2-3" corresponde à palavra "abc".
+
+2. **Completar Sequências Numéricas:**
+   - O jogador deve identificar o padrão matemático em uma sequência de números e preencher o número que falta.
+   - Exemplo: Na sequência "2, 4, 6, _", a resposta correta é "8".
+
+3. **Decodificar Mensagens Criptografadas:**
+   - As crianças recebem uma mensagem codificada usando a Cifra de César (um método de criptografia simples que desloca as letras do alfabeto).
+   - O objetivo é decodificar a mensagem para descobrir a palavra original.
+   - Exemplo: A mensagem "frgh" decodificada com um deslocamento de +3 resulta na palavra "code".
+
+---
+
+#### **Funcionalidades do Jogo:**
+- **Interface Amigável:** O jogo possui uma interface simples e intuitiva, com design atrativo e elementos visuais que remetem ao tema de "hackers".
+- **Temporizador:** Cada desafio tem um limite de tempo de 30 segundos, o que adiciona emoção e incentiva a agilidade no raciocínio.
+- **Pontuação:** O jogador acumula pontos a cada resposta correta, incentivando a melhoria contínua.
+- **Feedback Imediato:** Após cada resposta, o jogo informa se a resposta está correta ou não, permitindo que a criança aprenda com seus erros.
+- **Modo de Reinício:** O botão "Jogar Novamente" permite reiniciar o jogo quantas vezes o jogador quiser, promovendo a prática e o aprimoramento.
+
+---
+
+#### **Layout Inspirado no Windows 93:**
+O design do jogo foi criado como uma homenagem ao **Windows 93**, um sistema operacional fictício que se tornou um fenômeno nostálgico na internet. 
+Embora o Windows 93 nunca tenha existido oficialmente, fãs e desenvolvedores recriaram sua estética retrô, inspirada nos sistemas operacionais dos anos 90, 
+com uma pitada de humor e surrealismo. O layout do jogo captura essa vibe vintage, com elementos visuais que remetem à era pré-internet moderna, como janelas simples, 
+botões quadrados e uma paleta de cores clássica. Essa escolha de design não só torna o jogo visualmente único, 
+mas também cria uma conexão afetiva com adultos que viveram na época, enquanto desperta a curiosidade das crianças por um estilo "retrô" que elas talvez nunca tenham visto antes.
+
+---
+
+#### **Como Jogar:**
+1. Ao iniciar o jogo, o jogador recebe um desafio aleatório (decifrar código, completar sequência ou decodificar mensagem).
+2. O jogador deve digitar a resposta no campo de texto e clicar em "Enviar".
+3. Se a resposta estiver correta, o jogo exibe uma mensagem de acerto e avança para o próximo desafio.
+4. Se o tempo acabar ou a resposta estiver incorreta, o jogo termina e exibe a pontuação final.
+5. O jogador pode reiniciar o jogo a qualquer momento para tentar superar sua pontuação anterior.
+
+---
+
+#### **Benefícios Educativos:**
+- **Desenvolvimento do Raciocínio Lógico:** As crianças aprendem a identificar padrões e resolver problemas de forma estruturada.
+- **Familiarização com Conceitos Básicos de Matemática:** As sequências numéricas e a correspondência entre números e letras ajudam a reforçar conceitos matemáticos.
+- **Estímulo à Curiosidade e Criatividade:** A ideia de ser um "hacker mirim" desperta o interesse por tecnologia e criptografia.
+- **Melhoria da Concentração:** O tempo limitado para cada desafio incentiva a atenção e o foco.
+
+---
+
+#### **Tecnologias Utilizadas:**
+- **HTML5 e CSS3:** Para a estrutura e o design da interface do jogo.
+- **JavaScript:** Para a lógica do jogo, incluindo a geração de desafios aleatórios, temporizador e validação de respostas.
+- **Fontes Personalizadas:** Utilização de fontes temáticas para criar uma atmosfera divertida e adequada ao público infantil.
+
+---
+
+#### **Como Acessar o Jogo:**
+O **Jogo de Quebrar Códigos** está disponível online e pode ser acessado diretamente pelo navegador. Basta abrir o link do jogo e começar a jogar! 
+É uma ótima opção para ser utilizada em casa, em sala de aula ou em qualquer lugar onde haja interesse em aprender de forma divertida.
+
+---
+
+#### **Conclusão:**
+O **Jogo de Quebrar Códigos** é uma ferramenta educativa inovadora que combina diversão e aprendizado, 
+ajudando as crianças a desenvolver habilidades essenciais para o seu crescimento intelectual. 
+Com desafios envolventes, uma interface inspirada no icônico (e fictício) Windows 93 e uma atmosfera retrô, 
+o jogo é perfeito para estimular a curiosidade e o raciocínio lógico dos pequenos "hackers mirins". Divirta-se e desafie sua mente!
