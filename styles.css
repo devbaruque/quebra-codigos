@@ -9,79 +9,82 @@ body {
 }
 
 .container {
-  background-color: #C0C0C0;
-  width: 800px;
-  height: 400px;
-  padding: 5px;
+  background-color: #c0c0c0;
+  width: 90%; /* Ajusta a largura para 90% da tela */
+  max-width: 800px; /* Define uma largura máxima */
+  height: auto; /* Altura automática para se ajustar ao conteúdo */
+  padding: 20px; /* Aumenta o padding para melhor espaçamento */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0;
-  text-align: left; /* Textos alinhados à esquerda */
+  text-align: left;
   position: relative;
 }
 
 .card-black {
   background-color: black;
-  width: 790px;
-  height: 350px;
+  width: 100%; /* Ajusta a largura para 100% do container */
+  height: auto; /* Altura automática para se ajustar ao conteúdo */
   margin: 0 auto;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px; /* Adiciona um espaçamento interno de 20px */
-  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total do container */
+  position: relative; /* Altera para posição relativa */
+  top: auto; /* Remove o posicionamento absoluto */
+  left: auto; /* Remove o posicionamento absoluto */
+  transform: none; /* Remove a transformação */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .h1 {
-  color: #73D216;
+  color: #73d216;
   font-size: 14px;
 }
 
 .button-container {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: relative; /* Altera para posição relativa */
+  top: auto; /* Remove o posicionamento absoluto */
+  left: auto; /* Remove o posicionamento absoluto */
+  margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
 }
 
 #game-screen {
   margin-top: 20px;
-  color: #73D216; /* Cor dos textos */
-  font-size: 12px; /* Tamanho base dos textos */
+  color: #73d216;
+  font-size: 12px;
 }
 
 #game-screen p {
-  margin: 4px 0; /* Diferença de 4px entre os textos */
-  font-size: 12px; /* Tamanho menor para os parágrafos */
+  margin: 4px 0;
+  font-size: 12px;
 }
 
 #challenge-text {
-  font-size: 16px; /* Tamanho maior para o texto do desafio */
+  font-size: 16px;
 }
 
 input {
   padding: 10px;
   margin-top: 10px;
-  width: 80%;
-  background-color: transparent; /* Fundo transparente */
-  border: none; /* Remove a borda */
-  color: #73D216; /* Cor do texto do input */
-  outline: none; /* Remove o contorno ao focar */
-  font-family: "Press Start 2P", serif; /* Aplica a mesma fonte do body */
-  font-size: 12px; /* Ajusta o tamanho da fonte, se necessário */
+  width: 100%; /* Ajusta a largura para 100% do container */
+  background-color: transparent;
+  border: none;
+  color: #73d216;
+  outline: none;
+  font-family: "Press Start 2P", serif;
+  font-size: 12px;
 }
 
 input:focus::placeholder {
-  color: transparent; /* Cor do placeholder */
-  font-family: "Press Start 2P", serif; /* Aplica a mesma fonte ao placeholder */
+  color: transparent;
 }
 
 button {
   padding: 8px 20px;
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   color: black;
   border: 1px solid black;
   cursor: pointer;
-  font-size: 12px; /* Tamanho menor para o botão */
+  font-size: 12px;
+  width: 100%; /* Ajusta a largura para 100% do container */
+  margin-bottom: 10px; /* Adiciona margem inferior para espaçamento */
 }
 
 button:hover {
@@ -91,30 +94,96 @@ button:hover {
 #result {
   margin-top: 20px;
   font-weight: bold;
-  font-size: 12px; /* Tamanho maior para o resultado */
+  font-size: 12px;
 }
 
 #timer {
   margin-top: 10px;
-  color: #73D216;
-  font-size: 12px; /* Tamanho menor para o timer */
+  color: #73d216;
+  font-size: 12px;
 }
 
 #end-screen {
   display: none;
-  color: #73D216; /* Cor dos textos na tela de fim de jogo */
+  color: #73d216;
 }
 
 #end-screen h2 {
-  font-size: 12px; /* Tamanho maior para o título */
+  font-size: 12px;
 }
 
 #end-screen p {
-  font-size: 12px; /* Tamanho menor para o texto */
+  font-size: 12px;
 }
 
 #end-screen button {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Ajusta a largura para 95% da tela */
+    padding: 10px; /* Reduz o padding */
+  }
+
+  .card-black {
+    padding: 15px; /* Reduz o padding */
+  }
+
+  .h1 {
+    font-size: 12px; /* Reduz o tamanho da fonte */
+  }
+
+  #game-screen {
+    margin-top: 10px; /* Reduz a margem superior */
+  }
+
+  #challenge-text {
+    font-size: 14px; /* Reduz o tamanho da fonte */
+  }
+
+  input {
+    font-size: 10px; /* Reduz o tamanho da fonte */
+  }
+
+  button {
+    font-size: 10px; /* Reduz o tamanho da fonte */
+  }
+
+  #result {
+    font-size: 10px; /* Reduz o tamanho da fonte */
+  }
+
+  #timer {
+    font-size: 10px; /* Reduz o tamanho da fonte */
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 10px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  #challenge-text {
+    font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  input {
+    font-size: 8px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  button {
+    font-size: 8px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  #result {
+    font-size: 8px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  #timer {
+    font-size: 8px; /* Reduz ainda mais o tamanho da fonte */
+  }
 }
